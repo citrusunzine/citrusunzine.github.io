@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Citrus Sun — A NamiVivi Zine</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Serif:ital@0;1&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="imgs/favicon.svg">
+
+</head>
+
+<script>
+  const goToTop = document.getElementById("goToTop");
+  const hero = document.getElementById("hero");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > hero.offsetHeight - 100) {
+      goToTop.classList.add("visible");
+    } else {
+      goToTop.classList.remove("visible");
+    }
+  });
+</script>
+
+<body id="top">
+
+<div class="site">
+
+
+  <!-- nav -->
+
+  <header class="navbar">
+
+    <a href="#" class="nav-logo">
+      <img src="imgs/logosimple.png" style="height: 100px;">
+    </a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#apps">Apps & Guidelines</a>
+      <a href="#faq">FAQ</a>
+      <a href="#mods">Mods</a>
+    </nav>
+
+    <a href="#apps" class="button button-orange">
+      I want to join 🡪
+    </a>
+
+  </header>
+
+
+  <!-- hero -->
+
+  <main>
+
+     <section id="hero" class="hero">
+
+    <div class="nami-hero">
+      <img src="imgs/arcovivi.png" alt="Vivi">
+    </div>
+    <div class="hero-center">
+
+      <img src="imgs/logosinmarco.png" alt="Citrus Sun">
+
+      <h1>
+        Welcome to <em>Citrus Sun</em>!
+      </h1>
+
+      <p class="hero-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer vitae sem at nisl tincidunt consequat, sed suscipit
+        neque feugiat.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#apps" class="button button-orange">
+          I want to join
+        </a>
+
+        <a href="#about" class="button button-outline">
+          Learn more
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="vivi-hero">
+      <img src="imgs/arconami.png" alt="Nami">
+    </div>
+
+  </section>
+
+
+      <hr class="divider1">
+
+    <!-- about proj -->
+
+    <section id="about" class="about-section">
+
+      <div class="about-grid">
+
+        <div class="about-text">
+
+          <h3 class="large-text">
+              Citrus Sun: A Namivivi zine is a free digital SFW fanzine focusing on the romantic relationship between “cat burglar” Nami and Princess Nefertari Vivi
+          </h3>
+          <img src="imgs/onda3blue.png" style="width: 100%; max-width: 100px; height: auto;">
+          <p>
+            Whether you’ve been a ride or die shipper since the moment Vivi was introduced in the manga or fell in love with these two with the release of the live action’s second season, all are welcome to show our appreciation of the unexpected love between a princess and a pirate 
+          </p>
+
+          <a href="#apps" class="button button-orange">
+            I want to join! 🡪
+          </a>
+
+        </div>
+
+
+        <div class="about-illustration">
+          <img src="imgs/namiviviillust.png">
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- sched  -->
+
+    <section id="schedule" class="section-schedule">
+
+      <div class="section-heading">    
+        <img src="imgs/onda1.png">
+        <h2>Schedule</h2>
+        <img src="imgs/onda3.png">
+      </div>
+
+      <div class="schedule-box">
+
+     <div class="schedule-row">
+        <strong>01</strong>
+        <span>Interest Check and Formatting Mod Apps open</span>
+        <small>September 15, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>02</strong>
+        <span>Interest Check and Formatting Mod Apps close</span>
+        <small>October 15, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>03</strong>
+        <span>Sign-Ups Open</span>
+        <small>October 30, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>04</strong>
+        <span>Sign-Ups Close</span>
+        <small>November 30, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>05</strong>
+        <span>Zine Acceptances / Server Invites</span>
+        <small>December 5, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>06</strong>
+        <span>Zine Pitches Due</span>
+        <small>December 12, 2026</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>07</strong>
+        <span>Check-In 1</span>
+        <small>February 1, 2027</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>08</strong>
+        <span>Check-In 2</span>
+        <small>March 1, 2027</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>09</strong>
+        <span>Check-In 3</span>
+        <small>March 31, 2027</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>10</strong>
+        <span>Final Submissions Due</span>
+        <small>April 30, 2027</small>
+      </div>
+
+      <div class="schedule-row">
+        <strong>11</strong>
+        <span>Zine Release</span>
+        <small>July 3, 2027 — Nami’s Birthday</small>
+      </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- apps n guidelines -->
+
+    <section id="apps" class="section-applications">
+
+      <div class="section-heading">
+        <img src="imgs/onda2blue.png">
+        <h2>Applications & Guidelines</h2>
+        <img src="imgs/onda3blue.png">
+      </div>
+
+      <div class="application-grid">
+
+        <article class="application-card">
+          <div class="app-icon">
+            <img src="imgs/icon_artist.png" style="width: 100%;">
+          </div>
+          <h3>Artists</h3>
+
+          <p>
+            <strong>
+            Page artists will be expected to create either a single page, a 2 page spread, or a comic.
+            </strong>
+          </p>
+
+         <ul>
+          <li>
+            Submit at least 3 samples of your best work.<br>
+            At least one must include a background and one One Piece sample.
+          </li>
+
+          <li>
+            The style in your samples should match the style you intend to use for your zine piece.
+          </li>
+
+          <li>
+            Samples must be fully completed.<br>
+            Please do not include WIPs.
+          </li>
+
+          <li>
+            NSFW samples are allowed, but please tag them accordingly.
+          </li>
+
+          <li>
+            A portfolio may be submitted.
+          </li>
+
+          <li>
+            Ensure all links are accessible.
+          </li>
+        </ul>
+
+
+          <small>
+            One Piece pieces are encouraged but not mandatory.
+          </small>
+        </article>
+
+
+        <article class="application-card">
+          <div class="app-icon">
+          <img src="imgs/icon_merch.png" style="width: 100%;">
+          </div>
+          <h3>Merch Artists</h3>
+
+          <p>
+            <strong>
+            Merch artists will be expected to create 1-3 pieces of digital merch for the zine.
+            </strong>
+          </p>
+
+          <ul>
+          <li>
+            Submit at least 3 samples of your best work (digital or physical merch), 
+            one of which must be One Piece merch.
+          </li>
+          <li>
+            The style in your samples should be the one you intend on utilising in your zine piece.
+          </li>
+          <li>
+            Samples must be fully completed; please do not include WIPs.
+          </li>
+          <li>
+            NSFW samples are allowed, but please tag these accordingly.
+          </li>
+          <li>
+            A portfolio may be submitted.
+          </li>
+          <li>
+            Ensure all links are accessible.
+          </li>
+        </ul>
+
+        <small>
+            One Piece pieces are encouraged but not mandatory.
+          </small>
+
+        </article>
+
+
+        <article class="application-card">
+          <div class="app-icon">
+            <img src="imgs/icon_writer.png" style="width: 100%;">
+          </div>
+          <h3>Writers</h3>
+
+          <p>
+            <strong>
+            Writers will be expected to create a fic between 2.5-3k words.
+            </strong>
+          </p>
+
+         <ul>
+          <li>
+            Please submit 3 samples of your best work, one of which must be a One Piece fic.
+          </li>
+          <li>
+            Samples should be 1.5–2k words long; you may include excerpts from longer fics.
+          </li>
+          <li>
+            NSFW samples are allowed, but please tag these accordingly.
+          </li>
+          <li>
+            A portfolio may be submitted.
+          </li>
+          <li>
+            Ensure all links are accessible.
+          </li>
+        </ul>
+
+        <small>
+            One Piece pieces are encouraged but not mandatory.
+          </small>
+
+        </article>
+
+        <article class="application-card">
+          <div class="app-icon">
+            <img src="imgs/icon_spotart.png" style="width: 100%;">
+          </div>
+          <h3>Spot Artists</h3>
+
+          <p>
+            <strong>
+            Spot artists will be creating 2-3 illustrations to accompany a writer’s piece.
+            </strong>
+          </p>
+
+          <ul>
+            <li>
+              Please submit at least 3 samples of your best work, one of which must be a One Piece sample. Examples of prior spot art are preferred.
+            </li>
+            <li>
+              The style in your samples should be the one you intend on utilising in your zine piece.
+            </li>
+            <li>
+              Samples must be fully completed; please do not include WIPs.
+            </li>
+            <li>
+              NSFW samples are allowed, but please tag these accordingly.
+            </li>
+            <li>
+              A portfolio may be submitted.
+            </li>
+            <li>
+              Ensure all links are accessible.
+            </li>
+          </ul>
+
+        <small>
+            One Piece pieces are encouraged but not mandatory.
+        </small>
+
+        </article>
+
+      </div>
+
+      <div class="guidelines-cta">
+        <h3>For more information, please visit our info doc:</h3>
+        <a href="https://docs.google.com/document/d/1yqCW_EmdztSP9WDAjjfQbHKrp_ffg_nkE8q0KQtajX8/edit?usp=sharing" class="button button-orange">Go to info doc 🡪</a>
+      </div>
+
+    </section>
+
+    <hr class="divider1">
+
+    <!-- mod section -->
+
+    <section id="mods" class="section mods-section">
+
+      <div class="section-heading">
+        <img src="imgs/onda1blue.png">
+        <h2>Meet the Mods</h2>
+        <img src="imgs/onda1blue.png">
+      </div>
+
+      <h3 class="mods-intro">
+        The team behind Citrus Sun: a NamiVivi zine, at your service!
+      </h3>
+
+
+      <div class="mods-grid">
+
+        <article class="mod-card">
+
+          <div class="polaroid">
+            <div class="mod-placeholder blue">
+             <img src="imgs/mods/mod_evil.png" style="width: 100%; max-width: 260px; height: auto;">
+            </div>
+          </div>
+
+          <h3>Evil</h3>
+          <span>Head & Socials Mod</span>
+
+          <p>
+            Hi! This is my first zine I'm head mod of and Vivi is my fav OP girl 💙
+          </p>
+
+        </article>
+
+
+        <article class="mod-card">
+
+          <div class="polaroid">
+            <div class="mod-placeholder orange">
+            <img src="imgs/mods/mod_mandy.png" style="width: 100%; max-width: 260px; height: auto;">
+            </div>
+          </div>
+
+          <h3>Mandy</h3>
+          <span>Writing Mod</span>
+
+          <p>
+            The One Piece (brainrot) is real! I love writing and creating delicious OP inspired-recipes!
+          </p>
+
+        </article>
+        
+        <article class="mod-card">
+
+          <div class="polaroid">
+            <div class="mod-placeholder blue">
+              <img src="imgs/mods/mod_peu.png" style="width: 100%; max-width: 260px; height: auto;">
+            </div>
+          </div>
+
+          <h3>Peu</h3>
+          <span>Graphics & Art Mod</span>
+
+          <p>
+            Hello! I do graphic design and web dev for a living, and I love staying up late drawing even before workdays.
+          </p>
+
+        </article>
+
+        <article class="mod-card">
+
+          <div class="polaroid">
+            <div class="mod-placeholder blue">
+              <img src="imgs/mods/mod_tba.png" style="width: 100%; max-width: 260px; height: auto;">
+            </div>
+          </div>
+
+          <h3>TBA</h3>
+          <span>Formatting Mod</span>
+
+          <p>
+            Interested in being our Formatting Mod?
+            Look forward to the applications!
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <hr class="divider1">
+
+
+      <!-- faq section -->
+
+    <section id="faq" class="faq-section">
+
+      <div class="section-heading">
+        <img src="imgs/onda1blue.png">
+        <h2>FAQ</h2>
+        <img src="imgs/onda3blue.png">
+      </div>
+
+      <div class="faq-grid">
+
+        <details>
+          <summary>
+            What is a fanzine?
+            <span>+</span>
+          </summary>
+
+          <p>
+            A zine is a booklet that collects art, writing or other creative materials, they can be made by anyone and the sky's the limit on what your zine could be about. Zines have a long history with fanzines in particular dating back to the 1960s in the Star Trek fandom.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Will the zine be application or sign up based?
+            <span>+</span>
+          </summary>
+
+          <p>
+            The zine will be sign up based, the number of contributors that will be accepted will be decided based on the results of the interest check.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Will the zine be spoiler free?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Unfortunately,  no.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Will AUs be included in the zine?
+            <span>+</span>
+          </summary>
+
+          <p>
+            This will depend on the results of the interest check. 
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Are headcanons allowed?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Yes.
+          </p>
+        </details>
+
+
+      </div>
+
+    </section>
+
+     <!-- final section cta -->
+
+    <section class="final-cta">
+
+      <h2>
+        Come sail<br>
+        <em>with us</em>
+      </h2>
+
+      <h3>
+        The first rays of the Citrus Sun are already beginning to beam across the horizon... come join us!
+      </h3>
+
+      <div class="hero-buttons">
+
+        <a href="#apps" class="button button-orange">
+          I want to join!
+        </a>
+
+        <a href="#about" class="button button-white">
+          Learn more
+        </a>
+
+      </div>
+
+    </section>
+
+      <footer>
+
+    <p>
+      © 2026 Citrus Sun: a NamiVivi Zine
+    </p>
+
+    <small>
+      A One Piece fanzine project.
+    </small>
+
+  </footer>
+
+  </main>
+<a href="#top" class="go-to-top" id="goToTop" aria-label="Go to top">🡹</a>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const goToTop = document.getElementById("goToTop");
+  const hero = document.getElementById("hero");
+
+  function checkScroll() {
+    const heroBottom = hero.getBoundingClientRect().bottom;
+
+    if (heroBottom <= 0) {
+      goToTop.classList.add("visible");
+    } else {
+      goToTop.classList.remove("visible");
+    }
+  }
+
+  window.addEventListener("scroll", checkScroll);
+  checkScroll();
+
+});
+</script>
+
+</body>
+
+</html>
